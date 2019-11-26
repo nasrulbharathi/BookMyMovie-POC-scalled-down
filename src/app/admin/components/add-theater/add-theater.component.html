@@ -1,0 +1,13 @@
+
+<div>
+    <app-table [columHeaders] = "addTheaterConfigService.columHeaders"
+               [tableData] = "theatreList"
+               [crudAndFilterData] = "addTheaterConfigService.crudAndFilterData"
+               (emitCrudAction) = performCrudAction($event)>
+    </app-table>
+
+    <ng-template #successDialog>
+      <div> {{ dialogMessage }} </div>
+      <button mat-raised-button class="accept" color="primary" (click)="dialogOk()">OK</button>
+    </ng-template>
+</div>

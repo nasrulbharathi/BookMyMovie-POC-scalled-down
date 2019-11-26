@@ -1,0 +1,7 @@
+<form [formGroup]="form">
+    <div>
+        <ng-container *ngFor="let field of fields"
+                      dynamicFormDirective [field]="field" [group]="form">
+        </ng-container>
+    </div>
+</form>

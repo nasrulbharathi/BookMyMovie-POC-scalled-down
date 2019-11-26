@@ -1,0 +1,16 @@
+
+<div  fxLayout="column">
+  <app-header></app-header>
+  <div class="container">
+    <div class = "loader" *ngIf="isLoading">
+        <mat-progress-spinner
+            class="example-margin"
+            [color]="'primary'"
+            [mode]="'indeterminate'">
+        </mat-progress-spinner>
+    </div>
+    <div *ngIf="!isLoading">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

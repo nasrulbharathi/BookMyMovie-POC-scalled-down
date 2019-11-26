@@ -1,0 +1,15 @@
+<div class="form-container">
+  <h3 mat-dialog-title> {{ dialogHeading }} </h3>
+
+  <ng-container mat-dialog-content>
+      <app-form-generator [fields]="formFields"
+                          (sendFormInputData)="getFormInput($event)"
+                          (disableSubmit)="disableSubmit()">
+      </app-form-generator>
+  </ng-container>
+
+  <div mat-dialog-actions>
+    <button mat-button [disabled]="disableDialogSubmit" [mat-dialog-close]="result">Submit</button>
+    <button mat-button (click)="onNoClick()" tabindex="-1">Cancel</button>
+  </div>
+</div>

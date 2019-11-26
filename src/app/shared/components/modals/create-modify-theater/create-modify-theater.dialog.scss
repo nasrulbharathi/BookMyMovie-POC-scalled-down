@@ -1,0 +1,9 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 60%;
+}
+
+.form-container > * {
+  width: 100%;
+}
