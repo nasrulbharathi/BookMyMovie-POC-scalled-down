@@ -9,6 +9,7 @@ import { AuthService } from 'angular-6-social-login';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { SocialLoginModule, AuthServiceConfig, GoogleLoginProvider } from 'angular-6-social-login';
 import { SignInService } from '../core/shell/header/service/signin.service';
+import { SharedModule } from '../shared/shared.module';
 
 export function getAuthServiceConfigs() {
   const config = new AuthServiceConfig([
@@ -27,7 +28,8 @@ export function getAuthServiceConfigs() {
     CommonModule,
     MaterialModule,
     AppRoutingModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    SharedModule
   ],
   providers: [UserDetailService,
     {

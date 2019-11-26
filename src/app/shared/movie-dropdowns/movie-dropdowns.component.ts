@@ -1,11 +1,12 @@
-import { Component, OnInit, EventEmitter, Output, Input } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output, Input, ChangeDetectionStrategy } from '@angular/core';
 import { HomeService } from 'src/app/home/services/home.service';
 import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-movie-dropdowns',
   templateUrl: './movie-dropdowns.component.html',
-  styleUrls: ['./movie-dropdowns.component.scss']
+  styleUrls: ['./movie-dropdowns.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class MovieDropdownsComponent implements OnInit {
   genresList: any = [];

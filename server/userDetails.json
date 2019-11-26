@@ -74,10 +74,7 @@
         "name": "EWQE",
         "city": "WQE",
         "gLocation": "2",
-        "capacity": "12",
-        "movies": [
-          84516
-        ]
+        "capacity": "123"
       },
       {
         "tid": "SSA",
@@ -94,10 +91,7 @@
         "name": "Nasrul",
         "city": "chenai",
         "gLocation": "as",
-        "capacity": "123",
-        "movies": [
-          84516
-        ]
+        "capacity": "1234"
       },
       {
         "tid": "ADF",
@@ -620,6 +614,782 @@
             0
           ]
         ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T06:17:34.085Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T06:17:35.396Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            0
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T06:17:37.180Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T06:17:38.548Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            0
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T06:17:41.852Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T06:20:53.581Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T06:34:24.154Z",
+        "message": "scroll move to top",
+        "level": 2,
+        "extraInfo": [],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T06:34:25.747Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            0
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T06:39:46.075Z",
+        "message": "Genre has been changed",
+        "level": 2,
+        "extraInfo": [
+          [
+            "language is",
+            {
+              "value": "12"
+            }
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T06:39:47.723Z",
+        "message": "Genre has been changed",
+        "level": 2,
+        "extraInfo": [
+          [
+            "language is",
+            {
+              "value": "28"
+            }
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T06:39:49.730Z",
+        "message": "Genre has been changed",
+        "level": 2,
+        "extraInfo": [
+          [
+            "language is",
+            {
+              "value": "16"
+            }
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T06:39:56.636Z",
+        "message": "Language has been changed",
+        "level": 2,
+        "extraInfo": [
+          [
+            "language is",
+            "zh"
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T06:39:57.945Z",
+        "message": "Language has been changed",
+        "level": 2,
+        "extraInfo": [
+          [
+            "language is",
+            "ja"
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T06:39:59.049Z",
+        "message": "Language has been changed",
+        "level": 2,
+        "extraInfo": [
+          [
+            "language is",
+            "en"
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T09:04:15.092Z",
+        "message": "scroll move to top",
+        "level": 2,
+        "extraInfo": [],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T09:06:29.999Z",
+        "message": "scroll move to top",
+        "level": 2,
+        "extraInfo": [],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T09:13:51.869Z",
+        "message": "scroll move to top",
+        "level": 2,
+        "extraInfo": [],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T09:14:58.894Z",
+        "message": "scroll move to top",
+        "level": 2,
+        "extraInfo": [],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T09:27:11.088Z",
+        "message": "scroll move to top",
+        "level": 2,
+        "extraInfo": [],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T09:27:40.263Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T09:46:17.564Z",
+        "message": "scroll move to top",
+        "level": 2,
+        "extraInfo": [],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T09:56:10.973Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T09:57:08.965Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T09:57:12.986Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            0
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T09:59:05.754Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T09:59:56.639Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:00:08.012Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            0
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:00:10.630Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:05:01.119Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:05:02.937Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            0
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:05:04.280Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:05:23.490Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:05:43.432Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:06:37.817Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:08:58.954Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:09:28.530Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:09:35.937Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            0
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:09:37.721Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:11:32.962Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:12:11.578Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:12:27.720Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            0
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:12:34.206Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:12:39.319Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            0
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:12:41.576Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:12:47.271Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            0
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:13:37.106Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:14:39.099Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:14:41.506Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            0
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:14:43.146Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:16:01.811Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:16:19.027Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            0
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:16:23.710Z",
+        "message": "scroll move to top",
+        "level": 2,
+        "extraInfo": [],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:16:27.834Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:17:54.689Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:18:11.871Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            0
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:18:14.175Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:22:55.284Z",
+        "message": "scroll move to top",
+        "level": 2,
+        "extraInfo": [],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:35:37.151Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:40:54.290Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:41:04.101Z",
+        "message": "Genre has been changed",
+        "level": 2,
+        "extraInfo": [
+          [
+            "language is",
+            {
+              "value": "12"
+            }
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:41:06.777Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            0
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:41:12.917Z",
+        "message": "Genre has been changed",
+        "level": 2,
+        "extraInfo": [
+          [
+            "language is",
+            {
+              "value": "28"
+            }
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:49:50.155Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:49:51.741Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            0
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:54:17.247Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:54:27.243Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            0
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:54:29.954Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T10:54:39.818Z",
+        "message": "scroll move to top",
+        "level": 2,
+        "extraInfo": [],
         "logWithDate": true
       }
     ]

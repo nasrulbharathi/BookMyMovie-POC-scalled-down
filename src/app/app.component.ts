@@ -2,7 +2,7 @@ import { Component, OnInit, AfterViewInit, ChangeDetectionStrategy, ChangeDetect
 import { SwUpdate } from '@angular/service-worker';
 import { MatSnackBar } from '@angular/material';
 
-import { Store, State } from '@ngrx/store';
+import { Store } from '@ngrx/store';
 import * as MovieState from './reducers/index';
 
 import { HomeService } from './home/services/home.service';
@@ -14,15 +14,13 @@ import { UserDetailService } from './core/services/userDetails.service';
   styleUrls: ['./app.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class AppComponent implements OnInit, AfterViewInit {
+export class AppComponent implements OnInit {
 
   public title  = 'book-my-movie';
 
   constructor(private swUpdate: SwUpdate, private snackBar: MatSnackBar,
-              private store: Store<MovieState.State>,
               private homeService: HomeService,
-              private userDetailsService: UserDetailService,
-              private cdr: ChangeDetectorRef
+              private userDetailsService: UserDetailService
               ) { }
 
   public isLoading = true;
@@ -39,16 +37,15 @@ export class AppComponent implements OnInit, AfterViewInit {
       });
     }
     this.homeService.fetchGenres();
-    this.homeService.getNowshowing();
-    this.homeService.getUpcomingMovies();
+   // this.homeService.getNowshowing();
     this.userDetailsService.getUserDetailData();
   }
 
-  public ngAfterViewInit(): void {
+  /* public ngAfterViewInit(): void {
     this.store.select(MovieState.loadingSelector).subscribe((result) => {
       this.isLoading = result;
       this.cdr.detectChanges();
     });
-  }
+  } */
 }
 

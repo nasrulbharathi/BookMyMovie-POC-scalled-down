@@ -1,6 +1,9 @@
 <div class="mat-elevation-z6 app-navbar" fxLayout="row">
   <nav _ngcontent-c1>
-    <img routerLink="home" src="../../../../assets/images/logo.jpg" class="logo" alt="logo">
+    <app-image-loader>
+        <img *ngIf routerLink="home" src="../../../../assets/images/logo.jpg" 
+        class="logo" alt="logo"/>
+    </app-image-loader>
   </nav>
   <div class="extraSpace"></div>
   <div fxLayout="column" class="searchContainer">
@@ -9,8 +12,12 @@
   <div class="extraSpace"></div>
   <button mat-icon-button class="user-button" aria-label="Toggle menu" [matMenuTriggerFor]="user">
     <span *ngIf="userDetails && userDetails.image !== null">
-    <img src="{{userDetails.image}}" class="profileImage" title="{{userDetails.name}}" onerror="this.src='/assets/download.png'" alt="User profile Pic" />
-  </span>
+    <app-image-loader>
+        <img *ngIf src="{{userDetails.image}}" class="profileImage"
+        title="{{userDetails.name}}" onerror="this.src='/assets/download.png'" 
+        alt="User profile Pic" />
+    </app-image-loader>
+    </span>
   <span *ngIf="!userDetails || userDetails.image === null">
     <i class="fa fa-user-circle" aria-hidden="true"></i>
   </span>

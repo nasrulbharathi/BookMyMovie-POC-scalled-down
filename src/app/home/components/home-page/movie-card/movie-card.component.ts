@@ -28,8 +28,6 @@ export class MovieCardComponent implements OnInit, OnChanges, AfterViewInit {
   public category;
 
   public imagesPath;
-  public displayImage = false;
-  public displayCastandCredits = false;
   public castCrewPath;
 
   movieName = 'Robot 2.O';
@@ -62,15 +60,18 @@ export class MovieCardComponent implements OnInit, OnChanges, AfterViewInit {
   }
 
   public ngAfterViewInit(): void {
-    this.displayImage = true;
     this.store.select(MovieState.nowPlayingMoviesSelector).subscribe(
       () => {
-        this.cdr.detectChanges();
+        if (!this.cdr['destroyed']) {
+          this.cdr.detectChanges();
+        }
       }
     );
     this.store.select(MovieState.upcomingMovieSelector).subscribe(
       () => {
-        this.cdr.detectChanges();
+        if (!this.cdr['destroyed']) {
+          this.cdr.detectChanges();
+        }
       }
     );
   }

@@ -34,6 +34,7 @@ import { GlobalInterceptor } from './interceptors/global-interceptor';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { LogPublisherService } from './services/logger-publisher.service';
 import { SortOrderPipe } from './pipes/sort-order.pipe';
+import { ImageLoaderComponent } from './components/image-loader/image-loader.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { SortOrderPipe } from './pipes/sort-order.pipe';
     CreateModifyTheaterDialogComponent,
     LoadImageDirective,
     LoaderComponent,
-    SortOrderPipe
+    SortOrderPipe,
+    ImageLoaderComponent
   ],
   imports: [
     FormsModule,
@@ -80,7 +82,8 @@ import { SortOrderPipe } from './pipes/sort-order.pipe';
     FormGeneratorComponent,
     CreateModifyTheaterDialogComponent,
     LoadImageDirective,
-    LoaderComponent
+    LoaderComponent,
+    ImageLoaderComponent
   ],
   providers: [
     { provide: MatDialogRef, useValue: {} },

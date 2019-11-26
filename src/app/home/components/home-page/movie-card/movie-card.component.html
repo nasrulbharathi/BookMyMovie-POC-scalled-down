@@ -1,34 +1,42 @@
 <mat-card class="movieCard">
-  <div (loadImage)="displayImage">
-    <span *ngIf = "displayImage">
-      <div mat-card-avatar class="example-header-image" title="IMDB rating">
-        <h4 class="rating">{{ movie.vote_average * 10 }}%</h4>
+      <div>
+        <span >
+          <div mat-card-avatar class="example-header-image" title="IMDB rating">
+            <h4 class="rating">{{ movie.vote_average * 10 }}%</h4>
+          </div>
+          <app-image-loader>
+            <img mat-card-image *ngIf src="{{ imagesPath }}{{ movie.poster_path }}" 
+            onerror="this.src='/assets/images/noImage.jpg';"
+              alt="poster image" />
+          </app-image-loader>
+        </span>
       </div>
-      <img mat-card-image src="{{ imagesPath }}{{ movie.poster_path }}" onerror="this.src='/assets/images/noImage.jpg';"
-        alt="poster image" />
-    </span>
-  </div>
+
   <mat-card-header class="header">
     <mat-card-title>
       <div class="hideOverflowText" title="{{ movie.title }}">{{ movie.title }}</div>
     </mat-card-title>
   </mat-card-header>
   <mat-card-content>
-    <div (loadImage)="movie?.casts" >
-      <div *ngIf = "movie?.casts" class="credits">
-         
+    <div>
+      <div class="credits">
         <ng-container *ngFor="let cast of (movie.casts | slice: 1:5); trackBy: trackCastandCrew">
           <span>
-            <img src="{{ castCrewPath }}{{ cast.profile_path }}" class="castImage"
-              title="{{ cast.name }} / {{ cast.character }}" onerror="this.src='/assets/download.png'"
-              alt="cast profile photo" />
+            <app-image-loader>
+              <img *ngIf src="{{ castCrewPath }}{{ cast.profile_path }}" class="castImage"
+                title="{{ cast.name }} / {{ cast.character }}" onerror="this.src='/assets/download.png'"
+                alt="cast profile photo" />
+            </app-image-loader>
           </span>
         </ng-container>
+  
         <ng-container *ngFor="let crew of (movie.crews | slice: 1:5); trackBy: trackCastandCrew">
           <span>
-            <img src="{{ castCrewPath }}{{ crew.profile_path }}" class="castImage"
-              title="{{ crew.name }} / {{ crew.job }}" onerror="this.src='/assets/download.png'"
-              alt="crew profile photo" />
+            <app-image-loader>
+              <img *ngIf src="{{ castCrewPath }}{{ crew.profile_path }}" class="castImage"
+                title="{{ crew.name }} / {{ crew.job }}" onerror="this.src='/assets/download.png'"
+                alt="crew profile photo" />
+            </app-image-loader>
           </span>
         </ng-container>
       </div>

@@ -42,7 +42,7 @@
           <cdk-virtual-scroll-viewport  [itemSize]= "201"
                                         class="virtualScrollContainer" 
                                         minBufferPx="{{ 201*3 }}"
-                                        maxBufferPx="{{ 201*3 }}" 
+                                        maxBufferPx="{{ 201*3*3 }}" 
                                         (scrolledIndexChange) = "getNextBatchMovies($event)">
             <div class="cards-container" fxLayout="row wrap" fxLayoutAlign="space-evenly center"
             fxLayoutGap="2%">

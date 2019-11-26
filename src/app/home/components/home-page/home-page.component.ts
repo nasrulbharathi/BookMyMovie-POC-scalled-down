@@ -1,5 +1,5 @@
 import { Component, Input, ChangeDetectionStrategy, ViewChild, EventEmitter,
-          Output, ChangeDetectorRef } from '@angular/core';
+          Output, ChangeDetectorRef, AfterViewInit } from '@angular/core';
 import { CdkVirtualScrollViewport } from '@angular/cdk/scrolling';
 import { LoggerService } from 'src/app/shared/services/logger.service';
 
@@ -9,7 +9,7 @@ import { LoggerService } from 'src/app/shared/services/logger.service';
   styleUrls: ['./home-page.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class HomePageComponent {
+export class HomePageComponent implements AfterViewInit {
   @Input()
   public moviesList;
 
@@ -40,36 +40,40 @@ export class HomePageComponent {
   @ViewChild(CdkVirtualScrollViewport)
   public virtualScrollForUpcomingMovies: CdkVirtualScrollViewport;
 
-  public pageNowPlaying = 2;
-  public pageUpComing = 2;
+  public pageNowPlaying = 1;
+  public pageUpComing = 1;
   public selectedLanguage = '';
   public selectedGenre = '';
   public languageList = [{ id: 'en', name: 'English' }, { id: 'ja', name: 'Japanese' }, { id: 'zh', name: 'Chinese' }];
 
   private activeTabIndex = 0;
 
-  constructor(private logger: LoggerService) {}
+  constructor(private logger: LoggerService,
+              private cdr: ChangeDetectorRef) {}
 
   public getNextBatchMovies(): void {
     if (this.virtualScroll.getDataLength() === this.virtualScroll.getRenderedRange().end) {
       if (this.activeTabIndex === 0 && this.pageNowPlaying <= this.totalPagesForNowShowingMovies) {
         this.getNewNowPlayingMovies.emit(this.pageNowPlaying++);
       } else if (this.activeTabIndex === 1 && this.pageUpComing <= this.totalPagesForUpcomingMovies) {
+        console.log('this.pageUpComing..', this.pageUpComing);
         this.getNewUpcomingMovies.emit(this.pageUpComing++);
       }
     }
   }
 
+  public ngAfterViewInit(): void {
+    this.getNewUpcomingMovies.emit(this.pageUpComing++);
+  }
+
   public moveTop(): void {
     this.logger.info('scroll move to top');
-    this.virtualScroll.scrollToIndex(0);
+    this.virtualScroll.scrollToIndex(1);
   }
 
   public tabChanged(event): void {
     this.logger.info('tab changed to index', ['index is', event]);
     this.virtualScroll.scrollToIndex(0);
-    this.pageNowPlaying = 1;
-    this.pageUpComing = 1;
     this.activeTabIndex = event;
   }
 
