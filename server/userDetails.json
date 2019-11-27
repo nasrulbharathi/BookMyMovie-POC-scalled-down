@@ -1391,6 +1391,63 @@
         "level": 2,
         "extraInfo": [],
         "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T11:03:08.671Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T11:03:16.948Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            0
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T11:03:49.522Z",
+        "message": "scroll move to top",
+        "level": 2,
+        "extraInfo": [],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T11:03:53.394Z",
+        "message": "scroll move to top",
+        "level": 2,
+        "extraInfo": [],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T11:03:55.031Z",
+        "message": "tab changed to index",
+        "level": 2,
+        "extraInfo": [
+          [
+            "index is",
+            1
+          ]
+        ],
+        "logWithDate": true
+      },
+      {
+        "entryDate": "2019-11-26T11:04:04.853Z",
+        "message": "scroll move to top",
+        "level": 2,
+        "extraInfo": [],
+        "logWithDate": true
       }
     ]
   }

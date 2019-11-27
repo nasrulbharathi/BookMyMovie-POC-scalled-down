@@ -10,6 +10,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { SocialLoginModule, AuthServiceConfig, GoogleLoginProvider } from 'angular-6-social-login';
 import { SignInService } from '../core/shell/header/service/signin.service';
 import { SharedModule } from '../shared/shared.module';
+import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { AuthInterceptor } from './interceptors/auth.interceptor';
 
 export function getAuthServiceConfigs() {
   const config = new AuthServiceConfig([
@@ -36,6 +38,7 @@ export function getAuthServiceConfigs() {
       provide: AuthServiceConfig,
       useFactory: getAuthServiceConfigs
     },
+    { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true },
     SignInService,
     AuthService
   ],
